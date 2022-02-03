@@ -1,3 +1,2 @@
 # klibrary
-test
-open
+#define _crt_secure_no_warnings
