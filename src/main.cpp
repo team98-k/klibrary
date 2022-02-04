@@ -1,4 +1,5 @@
 #include <iostream>
+#include "hashtable_2.h"
 using namespace std;
 
 template <class T1, class T2>
