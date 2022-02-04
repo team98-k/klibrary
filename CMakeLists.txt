@@ -16,4 +16,5 @@ set(srcPath ${CMAKE_CURRENT_SOURCE_DIR}/src)
 add_executable(
     ${PROJECT_NAME}
     ${srcPath}/main.cpp
+    ${srcPath}/hashtable_2.cpp
 )
