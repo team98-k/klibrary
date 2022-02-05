@@ -7,7 +7,7 @@ namespace hashtable
     const std::string KEY_NULL = "$KEY_NULL";
     const int8_t KEY_FAIL = -1;
 
-    // 키 값이 유요한지 확인.
+    // 키 값이 유효한지 확인.
     bool IsValid(std::string _key)
     {
         bool result = false;
