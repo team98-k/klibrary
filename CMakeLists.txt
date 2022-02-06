@@ -9,6 +9,10 @@ project(
     LANGUAGES CXX
 )
 
+# C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 # Set variable 'srcPath' to ./src
 set(srcPath ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
