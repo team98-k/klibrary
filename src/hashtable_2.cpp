@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 #include "hashtable_2.h"
 
 namespace hashtable
