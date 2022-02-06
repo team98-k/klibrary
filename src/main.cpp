@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cctype>
 #include "hashtable_2.h"
 using namespace std;
 
