@@ -10,7 +10,7 @@ namespace hashtable
         uint16_t count = 0, max = _key.length();
     
         for (const auto str : _key) {
-            if (isalpha(str) || isnumber(str))
+            if (isalnum(str))
                 ++count;
         }
 
