@@ -1,5 +1,5 @@
-#ifndef hashtable_2_h
-#define hashtable_2_h
+#ifndef klibrary_h
+#define klibrary_h
 
 #include <vector>
 
@@ -28,7 +28,5 @@ namespace hashtable
         void tablelist(bool _filter_active = true, uint16_t _begin = 0, uint16_t _end = 1000);
     };
 }
-
-#include "hashtable_2.hpp"
 
 #endif

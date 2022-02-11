@@ -1,5 +1,5 @@
-#ifndef hashtable_2_hpp
-#define hashtable_2_hpp
+#ifndef klibrary_hpp
+#define klibrary_hpp
 
 namespace hashtable
 {
