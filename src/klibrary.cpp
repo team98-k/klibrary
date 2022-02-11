@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cctype>
-#include "hashtable_2.h"
+#include "klibrary.h"
+#include "klibrary.hpp"
+#include "hashtable.h"
+#include "Point.h"
 
 namespace hashtable
 {
