@@ -1,10 +1,16 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <cctype>
+=======
+#include "hashtable.h"
+#include "Point.h"
+>>>>>>> 6e22edc86712a64781b4fcee8c3ce15516ac72ac
 #include "hashtable_2.h"
 using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     // Start of (std::string) 해시테이블
     hashtable::hashtable <int>table(10); // 크기 '10' 만큼을 가진 int형 해시테이블 생성
     
@@ -23,6 +29,17 @@ int main()
 
     table.tablelist(false); // 해시테이블에 저장된 모든 정보 출력.
     // End of (std::string) 해시테이블
+=======
+    ShowData<char, double>(65);
+
+    Array<Point<int>> orr1(3);
+    orr1[0]=Point<int>(3, 4);
+    orr1[1]=Point<int>(5, 6);
+    orr1[2]=Point<int>(7, 8);
+
+    for(int i=0; i<orr1.GetArrLen(); i++)
+        orr1[i].ShowPosition();
+>>>>>>> 6e22edc86712a64781b4fcee8c3ce15516ac72ac
 
     return 0;
 }
