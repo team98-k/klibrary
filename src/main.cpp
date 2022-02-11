@@ -1,17 +1,10 @@
 #include <iostream>
+#include <cctype>
 #include "hashtable_2.h"
 using namespace std;
 
-template <class T1, class T2>
-void ShowData(double num)
-{
-    cout<<(T1)num<<", "<<(T2)num<<endl;
-}
-
 int main()
 {
-    ShowData<char, double>(65);
-
     // Start of (std::string) 해시테이블
     hashtable::hashtable <int>table(10); // 크기 '10' 만큼을 가진 int형 해시테이블 생성
     
@@ -26,7 +19,7 @@ int main()
         return 0;
     }
 
-    cout << "value 값 : " << *value << endl; // value의 값 출력.
+    cout << "value result : " << *value << endl; // value의 값 출력.
 
     table.tablelist(false); // 해시테이블에 저장된 모든 정보 출력.
     // End of (std::string) 해시테이블
